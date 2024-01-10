@@ -37,7 +37,7 @@ const Header = () => {
         >
           <GiHamburgerMenu className="text-2xl" />
         </button>
-        <h5 className="text-[#1A181E] font-medium text-xl">Payouts</h5>
+        <h5 className="text-[#1A181E] font-medium text-xl">Payments</h5>
         <div className="flex items-center gap-[6px] text-[#4D4D4D] text-sm">
           <FaRegCircleQuestion />
           <p className="hidden sm:block">How it works</p>

@@ -48,7 +48,7 @@ const menuLists = [
   },
   {
     icon: payouts,
-    name: "Payouts",
+    name: "Payments",
   },
   {
     icon: discounts,
@@ -139,7 +139,7 @@ const Sidebar = () => {
                   key={item.name}
                   href={"#"}
                   className={`${
-                    item.name === "Payouts" ? "bg-[#FFFFFF]/10" : ""
+                    item.name === "Payments" ? "bg-[#FFFFFF]/10" : ""
                   } px-4 py-2 flex gap-3 text-[#D2D4D9] items-center rounded-[4px] hover:bg-[#FFFFFF]/10`}
                 >
                   <div className="relative w-[18px] h-[18px]">
